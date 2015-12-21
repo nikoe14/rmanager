@@ -1,0 +1,16 @@
+{
+    "require": {
+        "silex/silex": "~1.3",
+        "twig/twig": "^1.22",
+        "symfony/yaml": "^2.7",
+        "propel/propel": "~2.0@dev"
+    },
+
+    "autoload": {
+        "psr-0": {
+
+            "Devspark": "app/lib/",
+            "App": "app/src/"
+         }
+    }
+}

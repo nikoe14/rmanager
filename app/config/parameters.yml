@@ -1,0 +1,8 @@
+# app/config/parameters.yml
+parameters:
+    database_driver:   mysql
+    database_host:     127.0.0.1
+    database_name:     testing
+    database_user:     root
+    database_password:
+    database_charset:  UTF8

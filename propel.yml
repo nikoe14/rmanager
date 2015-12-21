@@ -1,0 +1,18 @@
+propel:
+    database:
+        connections:
+            default:
+                adapter: mysql
+                dsn: mysql:host=127.0.0.1;dbname=bookstore
+                user: root
+                password:
+                settings:
+                    charset: utf8
+  runtime:
+      defaultConnection: bookstore
+      connections:
+          - bookstore
+  generator:
+      defaultConnection: bookstore
+      connections:
+          - bookstore

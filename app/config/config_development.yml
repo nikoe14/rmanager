@@ -1,0 +1,18 @@
+## YAML Config File.
+## Development environment.
+app:
+    codename: rmanager
+
+debug:
+    mode: true
+
+log:
+    level: debug
+
+database:
+    driver: pdo_mysql
+    host: localhost
+    dbname:
+    user: root
+    password: 
+    charset: utf8
